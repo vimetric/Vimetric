@@ -5,19 +5,18 @@
 }
 
 body {
-     font-family: "Stack Sans Text", sans-serif;
-    background: #6caef0;
-    background: radial-gradient(circle,rgba(108, 174, 240, 1) 0%, rgba(22, 24, 51, 1) 100%);
-
-    /* Clave para que el fondo ocupe todo */
-    min-height: 100vh;
+     font-family: "Stack Sans Headline", sans-serif;
+      background:  #040036;
+background: radial-gradient(circle, rgba(108, 174, 240, 1) 0%, rgba(22, 24, 51, 1) 100%);
+     /* Clave para que el fondo ocupe todo */
+     min-height: 100vh;
 }
 .contenedor{
    
     width: 90%;
     margin: auto;
     margin-top:20px;
-    max-width: 700px;
+    max-width: 680px;
     padding:40px 30px; 
     background: linear-gradient( 135deg, rgba(255,255,255,0.7), rgba(210,210,255,0.4));
     border-radius: 25px;
@@ -31,23 +30,23 @@ body {
         }
         .nombre {
             font-size: 22px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
     }
 
     .descripcion {
         font-size: 18px;
-        margin-bottom:40px;
+        margin-bottom:20px;
         &.dos {
-            font-style: italic;
             font-size: 15px;
+            margin-bottom:30px;
         }
     }
 
     .links {
           .link {
-        color: rgb(3, 3, 51);
-        border: 3px solid rgb(3, 3, 51);
+        color: #040036;
+        border: 3px solid  #040036;
         border-radius: 10px;
         text-align: center;
         display: block;
@@ -58,16 +57,16 @@ body {
         padding: 15px;
         transition: 0.2s ease all;
         box-shadow: 
-        1px 1px 0px 0px rgb(3, 3, 51),
-        2px 2px 0px 0px rgb(3, 3, 51),
-        3px 3px 0px 0px rgb(3, 3, 51),
-        4px 4px 0px 0px rgb(3, 3, 51),
-        5px 5px 0px 0px rgb(3, 3, 51);
+        1px 1px 0px 0px  #040036,
+        2px 2px 0px 0px  #040036,
+        3px 3px 0px 0px  #040036,
+        4px 4px 0px 0px  #040036,
+        5px 5px 0px 0px  #040036;
         transform: translate(-5px,-5px);
 
         &:hover{
             color:white;
-            background: rgb(9, 0, 43);
+            background:  #040036;
              box-shadow: 0px 0px 0px 0px white;
               transform: translate(0px,0px);
 
