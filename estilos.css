@@ -38,7 +38,7 @@ background: radial-gradient(circle, rgba(108, 174, 240, 1) 0%, rgba(22, 24, 51, 
         font-size: 15px;
         margin-bottom:20px;
         &.dos {
-            color:#040036
+            color:#040036;
             font-size: 14px;
             margin-bottom:30px;
         }
