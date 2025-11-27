@@ -76,3 +76,28 @@ background: radial-gradient(circle, rgba(108, 174, 240, 1) 0%, rgba(22, 24, 51, 
        
     }
 }
+
+@media (max-width:700px) {
+    .bio {
+        .foto {
+            width: 200px;
+        }
+        .nombre {
+            font-size: 18px;
+        }
+    }
+      .descripcion {
+        font-size: 12px;
+      
+        &.dos {
+            font-size: 10px;
+            
+        }
+
+        .link {
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+
+}
